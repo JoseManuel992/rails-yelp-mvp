@@ -1,0 +1,9 @@
+<div class="container">
+  <h1>Restaurant details</h1>
+  <div id="restaurants">
+    <%= render 'restaurant', restaurant: @restaurant %>
+  <%# 'file_path_name', variable = @value %>
+    <%= link_to "See review", new_restaurant_reviews_path(@restaurant) %>
+  </div>
+
+</div>
